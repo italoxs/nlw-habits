@@ -10,7 +10,7 @@ app.register(appRoutes);
 app
   .listen({
     port: 3333,
-    host: "0.0.0.0",
+    host: "127.0.0.1",
   })
   .then(() => {
     console.log("HTTP Server running!");
